@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Galeria de Imagens</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Minha Galeria</h1>
+            <p>Uma coleção de imagens incríveis</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Todas</button>
+            <button class="filter-btn" data-filter="natureza">Natureza</button>
+            <button class="filter-btn" data-filter="cidade">Cidade</button>
+            <button class="filter-btn" data-filter="pessoas">Pessoas</button>
+        </div>
+
+        <div class="gallery" id="gallery">
+            <!-- As imagens serão inseridas aqui pelo JavaScript -->
+        </div>
+    </main>
+
+    <!-- Modal para visualização ampliada -->
+    <div class="modal" id="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div class="modal-caption" id="caption"></div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Minha Galeria. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
