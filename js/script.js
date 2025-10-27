@@ -2,7 +2,7 @@
 // Exemplo: se seu usuário é 'joao' e repositório é 'galeria', fica:
 // const baseURL = 'https://raw.githubusercontent.com/joao/galeria/main/images/';
 
-const baseURL = 'https://raw.githubusercontent.com/akagaiporaapp-cloud/meu-portfolio/main/images/';
+const baseURL = 'https://raw.githubusercontent.com/akagaiporaapp-cloud.github.io/meu-portfolio//meu-portfolio/main/images/';
 
 // Array de imagens
 const images = [
