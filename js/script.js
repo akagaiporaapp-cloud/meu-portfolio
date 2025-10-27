@@ -11,7 +11,7 @@ const images = [
         category: 'alimento'
     },
     {
-        src: 'Coca 2 litros',
+        src: 'Coca 2 litros.jpg',
         title: 'Coca 2 litros',
         category: 'bebida'
     },
